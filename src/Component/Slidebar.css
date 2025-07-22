@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.slidebar h2{
+    margin-left: 2rem;
+}
+.search-input{
+    width: 15rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px -10px;
+
+}
+.search-input:focus{
+    outline: none;
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff;
+    transition: 0.3s;
+}
+.slidebar{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    top: 0;
+    border-radius: 15px;
+    background-color: black;
+
+}
+.slidebar-content{
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
